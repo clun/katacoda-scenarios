@@ -1,20 +1,20 @@
 {
-  "title": "Operator",
-  "description": "DDD",
+  "title": "Getting Started with Cassandra Operator",
+  "description": "One operator to rule them all",
   "difficulty": "Beginner",
-  "time": "1 hours",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Getting your cluster ready",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Install Operator",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Create your firt DataCenter",
         "text": "step3.md"
       }
     ],
@@ -26,7 +26,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running"
